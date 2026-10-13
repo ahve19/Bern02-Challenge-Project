@@ -5,6 +5,8 @@ A project for analyzing different models diagnosing breast cancer. Models includ
 - DataVisualizations.ipynd
 - Supervised_Learning.ipynd
 
+# The problem
+
 # Exploratory Data analysis
 
 Note will need to discuss why certain graph choices were chosen
