@@ -37,4 +37,8 @@ This repository is public on Github and is findable through a google search. In 
 This repository is freely accessible on Github and the license provides insight on how it can be used. The CC-BY-NC-Sa license was chosen as the dataset has this license. As a result, any code using this dataset must follow the same license.
 
 ## Interoperable (run it on other stuff)
+The project uses widely supported file formats and software - the data us stored as a CSV file and the analyses are written in Jupyter Notebooks using Python. The `requirements.txt` file lists the packages needed to run the analyses.
+
 ## Reusable
+
+The repository contains the data, notebooks, requirements file, and license needed to rerun the project. A `requirements.txt` file shows the software dependencies, and fixed random seeds are used throughout all code where relevant so that the results can be reproduced consistently for other users. 
