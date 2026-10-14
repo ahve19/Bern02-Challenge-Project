@@ -23,7 +23,27 @@ the features without providing the diagnosis labels to the models.
 
 # Exploratory Data analysis
 
-Note will need to discuss why certain graph choices were chosen
+## Supervised Learning
+
+For the Random Forest model, a confusion matrix was used to visualise the
+classification results, since it makes it easier to visualize the types of errors made by the model. 
+
+## Unsupervised Learning
+
+For PCA, a line plot of cumulative variance was used to show how much of the total variation is explained as more principal components are included. A line plot was chosen because the number of components is ordered, and so a line plot clearly shows how the explained variance increases. Horizontal bar plots were used for the PCA loadings of PC1 and PC2 because bar plots make it easy to compare the contribution of the different features, while the horizontal layout makes the longer feature names easier to read.
+
+For K-means, line plots were used to compare inertia and silhouette score
+across different values of `k`. These plots were chosen because `k` is again ordered.
+
+Scatter plots of PC1 against PC2 were used to visualise the K-means and
+hierarchical clustering results. The original dataset contains 30 features,
+so it could not be plotted directly in two dimensions, whilst PCA allowed the samples
+to be displayed using two axes. The clustering result was shown next to the
+known diagnosis so that the patterns could be easily compared. 
+
+Dendrograms were used for hierarchical clustering because they show how
+individual observations and clusters are joined at different linkage
+distances. 
 
 # Supervised Learning
 Justify the choice and discussion of limitations of the method
