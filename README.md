@@ -16,7 +16,16 @@ Note will need to discuss why certain graph choices were chosen
 Justify the choice and discussion of limitations of the method
 
 # Unsupervised Learning
-Justify the choice and discussion of limitations of the method
+K-means and hierarchical clustering were chosen because they provide two
+different methods of investigating whether the observations form groups naturally
+without using diagnosis labels.
+
+K-means is simple to implement and easy to interpret, but it works best when clusters are
+well-separated.
+
+Hierarchical clustering provides another view of the relationships between
+observations, but the results depend on the choice of linkage method and
+distance measure.
 
 # FAIR principles
 ## Findable
