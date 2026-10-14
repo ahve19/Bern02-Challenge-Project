@@ -45,10 +45,12 @@ Dendrograms were used for hierarchical clustering because they show how
 individual observations and clusters are joined at different linkage
 distances. 
 
-# Supervised Learning
+# Model Choice and Limitations of method 
+
+## Supervised Learning
 Justify the choice and discussion of limitations of the method
 
-# Unsupervised Learning
+## Unsupervised Learning
 K-means and hierarchical clustering were chosen because they provide two
 different methods of investigating whether the observations form groups naturally
 without using diagnosis labels.
