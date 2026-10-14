@@ -28,4 +28,4 @@ This repository is public on Github and is findable through a google search. In 
 This repository is freely accessible on Github and the license provides insight on how it can be used. The CC-BY-NC-Sa license was chosen as the dataset has this license. As a result, any code using this dataset must follow the same license.
 
 ## Interoperable (run it on other stuff)
-## Reproducible
+## Reusable
