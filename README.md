@@ -2,11 +2,24 @@
 A project for analyzing different models diagnosing breast cancer. Models include both supervised and unsupervised learning.
 
 # File Structure
-- DataVisualizations.ipynd
-- Supervised_Learning.ipynd
+
+- `DataVisualizations.ipynb` – exploratory data analysis and visualizations
+- `Supervised_Learning.ipynb` – supervised learning models for breast cancer classification
+- `unsupervised_learning.ipynb` – PCA and clustering analysis
+- `data.csv` – dataset used in the analyses
+- `requirements.txt` – Python packages required to run the notebooks
+- `LICENSE` – license information for the project
 
 # The problem
-We are trying to compare different models on classifying breast cancer using features from a digitized cell image.
+
+The goal of this project is to investigate whether features extracted from
+digitized breast cell images can be used to distinguish between benign and
+malignant tumors.
+
+Supervised learning is used to evaluate how accurately diagnosis can be
+predicted when labelled examples are available. Unsupervised learning is used
+to investigate whether similar groups can be identified from the structure of
+the features without providing the diagnosis labels to the models.
 
 # Exploratory Data analysis
 
