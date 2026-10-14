@@ -45,7 +45,7 @@ Dendrograms were used for hierarchical clustering because they show how
 individual observations and clusters are joined at different linkage
 distances. 
 
-# Model Choice and Limitations of method 
+# Model Choice and Limitations of Method 
 
 ## Supervised Learning
 Justify the choice and discussion of limitations of the method
