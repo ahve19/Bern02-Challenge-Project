@@ -21,10 +21,27 @@ predicted when labelled examples are available. Unsupervised learning is used
 to investigate whether similar groups can be identified from the structure of
 the features without providing the diagnosis labels to the models.
 
-# Exploratory Data analysis
+# Exploratory Data Analysis
 
-## Supervised Learning
+## Descriptive Statistics
+The class distribution are counted with 357 benign and 212 malignant, representing a moderate class imbalance. Descriptive statistics (such as mean, standard deviation, min, max, etc) are calculated for each feature demonstrating large scale discrepancies across the variables. The emphasizes the need for feature standardization prior to model fitting. These statistics are additionally diagnosed for grouping for the classes showing malignant tumors have higher average values.
 
+## Data Visualizations
+A histogram was used to show the slight class imbalance but fails to provide insight on the feature predictive power. 
+
+To compare central tendencies, inter-quartile ranges, and outliers for a few features, box plots grouped by class. While this shows if features vary between class, it does not show multi-feature interaction.
+
+A correlation heat map is used to investigate correlation between features but only captures linear correlations and not non-linear relationships.
+
+# Supervised Learning
+
+## Forward and Backward Selection
+For both Forward and Backward selection, line plots of estimators of quality of statistical model versus number of predictors were plotted to analyze the number of predictors for the best model.
+
+## Ridge and Lasso Regression
+Here only the optimal `C` is considered and the number of features Lasso selected.
+
+## Random Forest
 For the Random Forest model, a confusion matrix was used to visualise the
 classification results, since it makes it easier to visualize the types of errors made by the model. 
 
@@ -49,6 +66,7 @@ distances.
 
 ## Supervised Learning
 Justify the choice and discussion of limitations of the method
+
 
 ## Unsupervised Learning
 K-means and hierarchical clustering were chosen because they provide two
