@@ -1,4 +1,6 @@
 # Bern02-Challenge-Project
+By Annelies Verbist and Aleksandra Anisimovaite
+
 A project for analyzing different models diagnosing breast cancer. Models include both supervised and unsupervised learning.
 
 **DOI**: [![DOI](https://zenodo.org/badge/1407054690.svg)](https://doi.org/10.5281/zenodo.23389188)
