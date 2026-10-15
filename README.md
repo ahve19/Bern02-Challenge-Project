@@ -65,8 +65,13 @@ distances.
 # Model Choice and Limitations of Method 
 
 ## Supervised Learning
-Justify the choice and discussion of limitations of the method
+Forward selection was chosen because it incrementally isolates strong predictors early, allowing a model with `k=16` (for AIC) or `k=10` (for BIC) to achieve high accuracy and recall on the testing data. It eliminates nearly half of the features but adding features without dropping earlier ones means risking combinations under multicollinearity.
 
+Backward selection was chosen as staring with the full feature set allows the model to evaluate predictors in presence of all co-variates. Again this leads high test accuracy and precision. Like with forward selection, Barnard selection is sensitive to severe multicollinearity.
+
+Lasso regression was chosen because continuous L1 penalization performs feature selection automatically, zeroing out non-essential coefficients to achieve `k=14` while matching the top test accuracy, perfect precision, and the highest ROC-AUC. However, when handling highly correlated variables, Lasso tends to arbitrarily select one predictor and ignore the rest, resulting in a higher test MSE than the stepwise methods.
+
+Ridge regression was chosen because L2 shrinkage retains all `k=30` features to stabilize coefficient estimates in the presence of severe multicollinearity, maintaining a high test ROC-AUC. However, because it cannot shrink coefficients strictly to zero, retaining non-informative noise leads to the lowest test accuracy, F1 score, and recall among all tested models.
 
 ## Unsupervised Learning
 K-means and hierarchical clustering were chosen because they provide two
@@ -83,8 +88,8 @@ distance measure.
 # FAIR principles
 ## Findable
 
-[] make doi
 This repository is public on Github and is findable through a google search. In addition, the repository is described by metadata that provides a second resource of being findable. The repository has a DOI that can also be used to find it.
+
 ## Accessible
 
 This repository is freely accessible on Github and the license provides insight on how it can be used. The CC-BY-NC-Sa license was chosen as the dataset has this license. As a result, any code using this dataset must follow the same license.
