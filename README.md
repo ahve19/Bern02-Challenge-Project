@@ -1,8 +1,7 @@
 # Bern02-Challenge-Project
 A project for analyzing different models diagnosing breast cancer. Models include both supervised and unsupervised learning.
 
-**DOI**: [![DOI](https://zenodo.org/badge/1366124464.svg)]([https://doi.org/10.5281/zenodo.22756571](https://doi.org/10.5281/zenodo.23389189))
-
+**DOI**: [![DOI](https://zenodo.org/badge/1407054690.svg)](https://doi.org/10.5281/zenodo.23389188)
 # File Structure
 
 - `DataVisualizations.ipynb` – exploratory data analysis and visualizations
