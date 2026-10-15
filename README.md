@@ -33,15 +33,16 @@ To compare central tendencies, inter-quartile ranges, and outliers for a few fea
 
 A correlation heat map is used to investigate correlation between features but only captures linear correlations and not non-linear relationships.
 
-# Supervised Learning
+# Data Visualizations
+## Supervised Learning
 
-## Forward and Backward Selection
+### Forward and Backward Selection
 For both Forward and Backward selection, line plots of estimators of quality of statistical model versus number of predictors were plotted to analyze the number of predictors for the best model.
 
-## Ridge and Lasso Regression
+### Ridge and Lasso Regression
 Here only the optimal `C` is considered and the number of features Lasso selected.
 
-## Random Forest
+### Random Forest
 For the Random Forest model, a confusion matrix was used to visualise the
 classification results, since it makes it easier to visualize the types of errors made by the model. 
 
